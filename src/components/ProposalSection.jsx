@@ -64,7 +64,7 @@ export default function ProposalSection() {
               className="flex flex-col items-center gap-8 w-full"
             >
               <h2 className="text-serif text-3xl sm:text-4xl md:text-5xl text-blue-100 font-light tracking-wide text-glow-blue leading-snug">
-                ¿Quieres ser mi enamorada?
+                ¿Quieres ser mi enamorada, Cath? 💕
               </h2>
 
               <div className="flex flex-row items-center justify-center gap-6 mt-4 w-full relative min-h-[120px]">
@@ -167,7 +167,14 @@ export default function ProposalSection() {
                 <motion.span
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 1.6, duration: 0.8 }}
+                  transition={{ delay: 1.45, duration: 0.8 }}
+                >
+                  mi Cath
+                </motion.span>
+                <motion.span
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1.8, duration: 0.8 }}
                   className="text-4xl"
                 >
                   💖

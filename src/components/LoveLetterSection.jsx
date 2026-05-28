@@ -18,7 +18,7 @@ export default function LoveLetterSection() {
         className="w-full max-w-lg text-center"
       >
         <h2 className="text-serif text-3xl md:text-4xl text-blue-100 font-light tracking-wide text-glow-blue mb-8">
-          Una carta guardada
+          Una carta guardada para mi Cath ♥️
         </h2>
 
         {/* Envelope Interactive Box */}
@@ -128,8 +128,8 @@ export default function LoveLetterSection() {
                 <div className="mt-8 flex-1 overflow-y-auto pr-4 text-blue-100/90 text-[14px] sm:text-[15px] leading-relaxed space-y-4 font-light text-serif custom-scrollbar text-center">
                   {/* Styled placeholder matching request */}
                   <div className="letter-content space-y-5 pb-8">
-                    <p>Creo que la vida es muy corta para callarte lo que sientes, así que lo digo, aquí y ahora. Te extraño, cada momento.</p>
-                    <p>Creo que esta generación no comprende lo que es el amor. El amor verdadero no se trata de una mirada ni de una cara bonita, porque la belleza física cambia con el tiempo y lo que hoy deslumbra mañana puede apagarse.</p>
+                    <p>Creo que la vida es muy corta para callarte lo que sientes, así que lo digo, aquí y ahora, Cath. Te extraño, cada momento.</p>
+                    <p>Creo que esta generación no comprende lo que es el amor, Cath. El amor verdadero no se trata de una mirada ni de una cara bonita, porque la belleza física cambia con el tiempo y lo que hoy deslumbra mañana puede apagarse.</p>
                     <p>No se trata de sentir mariposas todo del tiempo ni de vivir en una emoción constante, es mucho más que eso. Amar de verdad es conocer a una persona más allá de lo que ella muestra, es entender sus silencios, acompañarla en sus días difíciles, es más bien ver su versión más vulnerable y aún así elegir quedarse.</p>
                     <p>Es ver sus heridas, sus errores, sus miedos y no huir. Ya que el amor real no es ciego, es ver con claridad y decidir no retroceder. No es un amor perfecto, se discute, se equivoca o tropieza, pero sabe sanar, pedir perdón, escuchar y crecer. No busca controlar ni llenar vacíos, más bien, es compartir, sumar, construir juntos algo que tenga sentido.</p>
                     <p>El amor verdadero no se alimenta solo de besos o caricias, se alimenta de respeto, paciencia, comprensión y compromisos. Estar incluso cuando no hay nada que ganar, es apoyar sin pedir nada a cambio, es quedarse cuando nadie más lo haría.</p>
