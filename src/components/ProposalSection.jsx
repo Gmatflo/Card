@@ -181,36 +181,6 @@ export default function ProposalSection() {
                 </motion.span>
               </h2>
 
-              {/* Additional romantic text */}
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 2, duration: 1 }}
-                className="text-sm text-blue-200/70 italic font-light tracking-wide mt-2"
-              >
-                Un comienzo sincero.
-              </motion.p>
-
-              {/* "To be continued..." with typewriter effect and warm color */}
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 3, duration: 1 }}
-                className="mt-10 text-serif text-lg md:text-xl text-amber-100/80 italic tracking-wider"
-                style={{ whiteSpace: 'pre' }}
-              >
-                {"To be continued...".split("").map((char, idx) => (
-                  <motion.span
-                    key={idx}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 3.2 + idx * 0.04, duration: 0.3 }}
-                    className="inline-block"
-                  >
-                    {char === " " ? "\u00A0" : char}
-                  </motion.span>
-                ))}
-              </motion.div>
             </motion.div>
           )}
         </AnimatePresence>
